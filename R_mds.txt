@@ -1,0 +1,34 @@
+#connection of a package for multidimensional scaling and static testing
+library(vegan)
+
+#setting the working directory
+setwd("E:\\R_rab\\phito")
+
+#reading and preparation of source data
+data<-read.table("data.txt",header=TRUE,sep="\t")
+
+data<-data[,-1]
+
+Resp <- data[,c(1:34)]
+
+Expl <- data[,c(35:39)]
+
+
+#standard normalization of environmental vectors
+for(i in 1:ncol(Expl)) Expl[,i]<-(Expl[,i]-mean(Expl[,i]))/sd(Expl[,i])
+
+#non-metric multidimensional scaling with euclidean distance
+ord <- metaMDS(Resp, distance = "euclidean")
+
+#fitting environmental variables
+ord.fit <- envfit(ord ~ ðÍ+Si+N+PÎ4+ions, data=Expl, perm=1000)
+
+#viewing the results of calculations r2 and the permutation test
+ord.fit
+
+#visualization of multidimensional scaling results with environmental variables
+plot(ord, type = "n")
+text(ord, display = "site", cex=0.7, col="red")
+plot(ord.fit)
+
+

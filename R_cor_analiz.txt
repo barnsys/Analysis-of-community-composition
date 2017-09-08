@@ -1,0 +1,42 @@
+#connection of a package for visualization of a heatmap plot
+library(gplots)
+
+#setting the working directory
+setwd("E:\\R_rab\\phito")
+
+#reading and preparation of source data
+data<-read.table("data.txt",header=TRUE,sep="\t")
+
+data_f<-data[,c(2:35)]
+
+data_h<-data[,c(36, 37, 38, 39, 40)]
+
+d_h<-data_h
+d_v<-data_f
+
+
+#calculation of the correlation table
+DD=matrix(nrow=ncol(d_v), ncol=ncol(d_h))
+
+rownames(DD)<-colnames(d_v)
+colnames(DD)<-colnames(d_h)
+
+for(i in 1:ncol(d_v))
+ {
+  for(j in 1:ncol(d_h))
+   {
+    if(cor.test(as.numeric(d_v[,i]),as.numeric(d_h[,j]),method ="spearman")$p.value>=0.1)
+     {
+      DD[i,j]=cor(as.numeric(d_v[,i]),as.numeric(d_h[,j]),method ="spearman")
+     }
+    else
+     {
+      DD[i,j]=0
+     }
+   }
+ }
+
+#visualization of the correlation table in the form of a heatmap
+heatmap.2(DD,trace="none",col=bluered(100), margins = c(8, 16),cexCol=1)
+
+
