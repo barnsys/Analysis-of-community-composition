@@ -1,9 +1,0 @@
-ozero	Chrysosphaerella brevispina 	C. coronacircumspina	C. longispina	Chrysosphaerella sp.	Paraphysomonas bandaiensis	P. gladiata	P. vestita 	Paraphysomonas sp.	Mallomonas akrokomos	М. alata f. alata 	M. alata f. hualvensis	M. caudata 	M. crassisquama 	M. crassiquama var. papillosa 	M. heterospina	M. insignis 	M. striata var. striata	M. tonsurata	Chrysodidymus synuroideus	Spiniferomonas abei	S. bilacunosa	S. bourrellyi	S. cornuta	S. crusigera	S. serrata	S. triangularis	S. trioralis f. trioralis	S. trioralis f. cuspidata	Spiniferomonas  sp. 	Synura echinulata f. leptorrhabda	S. petersenii f. petersenii	S. petersenii f. kufferathii	S. punctulosa	S. spinosa 	рН	Si	PО4	ions	N
-Ледяная гора	0	1	0	0	0	1	0	0	1	1	0	0	1	2	0	0	0	3	0	1	2	2	3	2	0	1	2	0	0	0	0	0	0	0	8.4	0.98	8	143	0.14
-п. Караул	0	0	0	0	0	0	0	0	0	1	0	1	1	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1	7.47	0.66	12	48.4	0.07
-Ладыгинские Яры 	1	0	0	0	1	0	1	1	1	0	0	1	1	1	0	2	1	0	0	0	0	0	0	0	1	0	1	2	0	2	2	2	0	0	6.79	0.96	5	19.4	0.09
-Сопочная Карга оз. Долган	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7.84	0.83	1	71.4	0.19
-Сопочная Карга 	1	3	3	1	0	1	1	0	3	2	0	0	2	0	0	1	1	0	0	1	2	2	1	0	1	0	2	2	1	2	0	0	1	1	7.34	2.87	1	32.6	0.55
-о. Сибирякова (оз. Среднее)	0	0	0	0	0	0	0	0	0	0	1	1	0	0	2	1	1	1	0	0	0	0	0	0	0	0	1	0	0	1	0	1	0	1	7.15	0.24	1	39.8	0.11
-о. Сибирякова (оз. Большое)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7.9	0.74	1	89.2	0.13
-м. Черный	0	0	0	0	0	1	1	0	2	0	0	0	2	3	2	0	0	0	1	0	1	1	1	0	0	0	1	0	0	2	2	3	0	2	7.23	0.26	1	13.6	0.09
