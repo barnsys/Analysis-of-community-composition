@@ -5,4 +5,6 @@ R_cor_analiz.txt - the script for constructing a heatmap, visualizing the correl
 
 R_mds.txt - script for multidimensional scaling (ordination graphics) of collection points based on species concentration in samples.
 
-data.txt - data on the concentration of species in samples and and the environmental vectors.
+data_cor_analiz.txt - data on the concentration of species in samples and and the environmental vectors for constructing a heatmap.
+
+data_mnds.txt - data on the concentration of species in samples and and the environmental vectors for multidimensional scalin.
