@@ -5,7 +5,7 @@ library(gplots)
 setwd("E:\\R_rab\\phito")
 
 #reading and preparation of source data
-data<-read.table("data.txt",header=TRUE,sep="\t")
+data<-read.table("data_cor_analiz.txt",header=TRUE,sep="\t")
 
 data_f<-data[,c(2:35)]
 
